@@ -19,3 +19,8 @@ exports.post = function(req, res) {
     res.send(toUser);
 
 }
+
+exports.show = (function(req, res) {
+
+    res.send("herro");
+});

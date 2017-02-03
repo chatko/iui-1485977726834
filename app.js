@@ -31,6 +31,7 @@ app.use(bodyParser.json());
 // Routes
 var api = require('./controllers/api.js');
 router.post('/jwt', api.post);
+router.get('/nextgenredirect', api.show);
 
 // apply the routes to our application
 app.use('/', router);
